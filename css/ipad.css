@@ -1,0 +1,52 @@
+@media (min-width: 768px) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+
+  /* SHOWCASE */
+  .showcase .showcase-content {
+    position: relative;
+    color: var(--white);
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* ABOUT SECTION */
+  .about-section {
+    padding: 5rem 2rem;
+  }
+
+  /* DETAIL SECTION */
+  .detail-section {
+    padding: 5rem 2rem;
+  }
+
+  /* CALVATIS SECTION */
+  .calgonit-section {
+    padding: 5rem 2rem;
+  }
+
+  /* SERVICE SECTION */
+  .service-section .service-boxes {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .service-section .service-boxes .box {
+    width: 45%;
+    margin: 1rem auto;
+  }
+}

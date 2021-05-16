@@ -1,0 +1,98 @@
+@media (min-width: 1024px) {
+  .text-2 {
+    line-height: 1.5;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  /* SHOWCASE */
+  .showcase .showcase-content {
+    position: relative;
+    color: var(--white);
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* ABOUT SECTION */
+  .about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+  }
+
+  .about-section .about-content {
+    flex: 1;
+  }
+
+  .about-section .about-img {
+    flex: 1;
+  }
+
+  /* DETAIL SECTION */
+  .detail-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+  }
+
+  .detail-section .detail-content {
+    flex: 1;
+  }
+
+  .detail-section .detail-img {
+    flex: 1;
+  }
+
+  /* CALVATIS SECTION */
+  .calgonit-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+  }
+
+  .calgonit-section .detail-content {
+    flex: 1;
+  }
+
+  .calgonit-section .calvatis-img {
+    flex: 1;
+  }
+
+  /* SERVICE SECTION */
+
+  /* WHY CHOOSE US SECTION */
+  .why-us-section .why-us-boxes {
+    flex-direction: row;
+  }
+
+  .why-us-section .why-us-boxes .why-us-box {
+    flex: 1;
+    margin: 1rem;
+  }
+
+  /* CONTACT */
+  .contact-map-section .contact-map-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .contact-map-section .contact-map-boxes .contact-box {
+    flex: 1;
+  }
+
+  .contact-map-section .contact-map-boxes .map-box {
+    flex: 1;
+  }
+
+  .contact-map-section .contact-map-boxes .map-box {
+    margin-top: 0;
+  }
+}
