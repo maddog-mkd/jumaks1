@@ -657,6 +657,35 @@
     text-align: center;
     color: var(--grey);
   }
+
+  /* ERROR 404 SECTION */
+  #id-404 {
+    color: var(--grey);
+    padding: 5rem 0;
+  }
+
+  .class-404 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .class-404 .box-404 {
+    margin: 1rem 0;
+  }
+
+  .class-404 .box-404 h2 {
+    font-size: 5rem;
+  }
+
+  .class-404 .box-404 p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
   
   /* ==============================================
       Reveals Elements With JavaScript
