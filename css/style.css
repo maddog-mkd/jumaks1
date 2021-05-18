@@ -592,11 +592,65 @@ h6 {
 
 .products h2 {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
-#products img {
+.products .product-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.products .product-wrap .kutija {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
-  filter: sepia(1);
+  max-width: 300px;
+  background-color: var(--lightblue);
+  color: var(--white);
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.products .product-wrap .kutija i {
+  transition: all 0.5s ease;
+  opacity: 0.7;
+}
+
+.products .product-wrap .kutija i:hover {
+  color: var(--white);
+}
+
+.products .product-wrap .kutija .ime {
+  margin: 0;
+  text-align: left;
+}
+
+.products .product-wrap .kutija .tip {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  color: black;
+  opacity: 0.3;
+}
+
+/* PROIZVODI */
+.container-2 {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 5rem 1rem;
+}
+
+.product-main h2 {
+  text-align: center;
+  color: var(--grey);
 }
 
 /* ==============================================
