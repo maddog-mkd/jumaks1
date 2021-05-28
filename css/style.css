@@ -15,12 +15,17 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("/font/Poppins-Regular.ttf");
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Poppins-Regular", Arial, Helvetica, sans-serif;
 }
 
 /* =============== UTILITIES =============== */
