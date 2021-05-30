@@ -543,6 +543,13 @@
     font-size: small;
   }
 
+  #footer .footer img {
+    display: block;
+    margin: 0 auto 1rem;
+    width: 30px;
+    height: auto;
+  }
+
   /* ERROR 404 SECTION */
   #id-404 {
     color: var(--grey);
