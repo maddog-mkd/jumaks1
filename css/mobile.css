@@ -470,6 +470,10 @@
     margin: 3rem auto;
   }
 
+  .product-main .main-product-wrap {
+    padding: 0 1rem;
+  }
+
   .product-main .main-product-wrap h2 {
     color: var(--lightblue);
   }
