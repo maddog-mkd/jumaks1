@@ -47,6 +47,10 @@ body {
   font-weight: bold;
 }
 
+i {
+  color: var(--lightblue) !important;
+}
+
 .bold {
   font-weight: bold;
 }
